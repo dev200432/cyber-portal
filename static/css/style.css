@@ -1,0 +1,33 @@
+body {
+    background-color: #f4f6f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar Customization */
+.navbar {
+    background: linear-gradient(135deg, #1f2937, #111827) !important;
+    border-bottom: 2px solid #374151;
+}
+
+/* Card Hover Animations */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12) !important;
+}
+
+/* Buttons */
+.btn-dark {
+    background-color: #111827;
+    border: none;
+    transition: background-color 0.2s ease;
+}
+
+.btn-dark:hover {
+    background-color: #374151;
+}
